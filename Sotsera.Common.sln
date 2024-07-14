@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35103.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sotsera.Common", "src\Sotsera.Common\Sotsera.Common.csproj", "{403FC7ED-46B7-41C1-9046-FF228547264A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{B9676FB5-45F7-4AAA-B04C-24DC9FBFCDD8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+		Sotsera.Common.sln.DotSettings = Sotsera.Common.sln.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFEB86D8-E6C9-4FDC-8265-7B663B245620}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{403FC7ED-46B7-41C1-9046-FF228547264A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403FC7ED-46B7-41C1-9046-FF228547264A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403FC7ED-46B7-41C1-9046-FF228547264A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403FC7ED-46B7-41C1-9046-FF228547264A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{403FC7ED-46B7-41C1-9046-FF228547264A} = {AFEB86D8-E6C9-4FDC-8265-7B663B245620}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C70AEFA6-CD9A-4E84-98F5-B17C1E423B2E}
+	EndGlobalSection
+EndGlobal
